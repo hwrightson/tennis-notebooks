@@ -1,0 +1,55 @@
+# WTA Tennis Data: Python for Data Analysts
+
+Three Jupyter notebooks taking you from raw WTA match data to a working regression model.
+
+## Prerequisites
+
+- [VS Code](https://code.visualstudio.com/) with the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+- Python 3.10+
+- Git
+
+## Setup
+
+**1. Clone this repository**
+
+```bash
+git clone <this-repo-url>
+cd tennis-notebooks
+```
+
+**2. Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**3. Get the data**
+
+```bash
+git clone https://github.com/JeffSackmann/tennis_wta data
+```
+
+**4. Open in VS Code**
+
+```bash
+code .
+```
+
+Open any `.ipynb` file and select your Python interpreter when prompted.
+
+## Notebooks
+
+Work through them in order:
+
+| Notebook | What you'll do |
+|---|---|
+| `EDA.ipynb` | Load a single season, explore the data, build your first visualisations |
+| `JOIN_DATA.ipynb` | Consolidate 14 years of match data, clean it, engineer features |
+| `REGRESSION.ipynb` | Build a linear model to understand what drives player ranking points |
+
+Stuck? Complete reference versions live in `solutions/`.
+
+## Data
+
+WTA Rankings, Results, and Stats by [Jeff Sackmann / Tennis Abstract](https://github.com/JeffSackmann/tennis_wta).
+Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
