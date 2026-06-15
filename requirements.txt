@@ -4,3 +4,4 @@ seaborn>=0.13
 scikit-learn>=1.4
 numpy>=1.24
 jupyter>=1.0
+ipykernel>=6.29

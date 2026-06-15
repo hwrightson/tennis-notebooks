@@ -19,9 +19,18 @@ cd tennis-notebooks
 
 **2. Install dependencies**
 
+Create a virtual environment first (recommended):
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+```
+
+Then install:
 ```bash
 pip install -r requirements.txt
 ```
+
+VS Code will detect `.venv` automatically when you open the project.
 
 **3. Get the data**
 
