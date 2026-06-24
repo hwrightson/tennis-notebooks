@@ -58,6 +58,13 @@ Work through them in order:
 
 Stuck? Complete reference versions live in `solutions/`.
 
+## If something goes wrong
+
+Each notebook has a "Stuck?" cell near the top. For `EDA.ipynb` and `REGRESSION.ipynb`,
+that's a reset cell that reloads `df` from the source CSV. For `JOIN_DATA.ipynb`, restart
+the kernel (`Kernel → Restart Kernel` in VS Code) and re-run from the top — there are too
+many intermediate frames to reset piecemeal.
+
 ## Data
 
 WTA Rankings, Results, and Stats by [Jeff Sackmann / Tennis Abstract](https://github.com/JeffSackmann/tennis_wta).
